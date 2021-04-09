@@ -1,18 +1,15 @@
-import pandas as pd
-import sys
-sys.path.append('..')
-
-
 def test(num):
     print('This is the number: {}'.format(num))
-    print(num*2)      
+    return num*2      
 
 
 
 def LoanCalculatorFun (money_requested=0):
     
-    # Read the file with investor info.
-
+    # Import libraries and read the file with investor info.
+    import pandas as pd
+    import sys
+    sys.path.append('..')
     data = pd.read_csv('../Data/MarketDataforTechnicalExercise_2.csv')
     
     # Sort data by expected rate and create a column with expected amount (for each investor to receive in return).
@@ -25,9 +22,9 @@ def LoanCalculatorFun (money_requested=0):
     # Check that the money requested is valid and available.
     pos_req = list(range(1000,15100,100))
     if money_requested not in pos_req:
-        print ('Invalid amount - It must be any £100 increment between £1000 and £15000 inclusive')
+        return 'Invalid amount - It must be any £100 increment between £1000 and £15000 inclusive'
     elif money_requested > df['money_lent'].sum():
-        print ('Invalid amount  - Not enough money in the bucket')
+        return 'Invalid amount  - Not enough money in the bucket'
     
     else:
     
@@ -59,14 +56,14 @@ def LoanCalculatorFun (money_requested=0):
         df_2['exp_return'] = df_2['money_lent']*(1+df_2['exp_rate'])
         df_2.to_csv(path_or_buf='../Data/MarketDataforTechnicalExercise_2.csv', index=False)
         
-        print('Requested amount: £'+ '%.2f'%(money_requested)+
+        return print('Requested amount: £'+ '%.2f'%(money_requested)+
               '\n' + 'Rate: '+ str(rate.round(1)) + '%' +
               '\n' + 'Monthly repayment: £'+ str(mon_repay.round(2)) +
               '\n' + 'Total repayment: £' + str(total_return.round(2)))
 
 
     
-# each group of investors (with 7 participants) is able to provide 2.330 EUR at different rates.
+    # each group of investors (with 7 participants) is able to provide 2.330 EUR at different rates.
 def FillTheBucket (n_groups_of_7_investors):
 
     # Import libraries and read the file with investor info.
@@ -98,14 +95,6 @@ def FillTheBucket (n_groups_of_7_investors):
     # Save to CSV.
     data.to_csv(path_or_buf='../Data/MarketDataforTechnicalExercise_2.csv', index=False)
     
-    print ("New Bucket's Status:")
-    print ('\n')
-    print (data)
-
-
-
-# Github, subir.
-# Readmes.
-# mandar link de repo a Paco.
+    return data
 
 

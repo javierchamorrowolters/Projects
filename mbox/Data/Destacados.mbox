@@ -1,0 +1,2025 @@
+From 1715601312097043178@xxx Fri Nov 05 15:08:28 +0000 2021
+X-GM-THRID: 1715601312097043178
+X-Gmail-Labels: =?UTF-8?Q?Recibidos,Importante,Abierto,?=
+ =?UTF-8?Q?Categor=C3=ADa:_personal,Destacados?=
+Delivered-To: alessiobunsetti@gmail.com
+Received: by 2002:a17:906:6d42:0:0:0:0 with SMTP id a2csp2558484ejt;
+        Fri, 5 Nov 2021 08:08:28 -0700 (PDT)
+X-Received: by 2002:a05:600c:282:: with SMTP id 2mr31859755wmk.91.1636124908497;
+        Fri, 05 Nov 2021 08:08:28 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1636124908; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wcsC3lZQN5LUnA++Nx+NyVlvCb078I2Ca5bBbD7kZfeXUK8Kc0AYzm4o5EFVBw3fG4
+         0bslNilISvjtpAHYQih1LDwkT0LSPYBpbg/wbav7uC9pNKXYFMaYuXoigJrxkcZIn7k5
+         5/JzalZjlXYYaPk4BJDMTR4gkwpPySM/NMzd3DH2QTiIYolM3bP6rJFXDAm2Leb29R5o
+         0b/Nju/IgcVwL3f1y+IbaVLUtgOpGJi0L4/umz9mNT/ylGO4MAt2PGshwqSOu32soZSe
+         SHeUQiZAcuNdnhJEdsK2Sd2aHMnW649mX24sJz7fqRpFL0wnzMCiqTAIJ7gTBhuEdRNR
+         OJVg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=0gGLDPLdNVN7bY8Lna8ewEJxBZE9g84JW4cI87Enxqw=;
+        b=gPoHbO2kKQrhiVRU56/JPlVJN+0Akk4ou0e+K7vDqQ8uTdJ5hSDkSaEepQMvrliiOR
+         oXGmZVaJWR+e65ebGZsLSHtqRi+GyD8frs2fNveATpi4ru0c/uzUypC+Ow/P2uPYZHOQ
+         jG+X1cyzpmiwvAW/4vJPlCGbXKOpjiJaFfM123Hg+6S80sxYJP/DDaXHWqN5ADAlZgS2
+         7QotD6d5cEikY13whDB9FQFfY5M79gMBH30BQVbsfU+zlF5m26TulJGpZuGACc61UHsu
+         1xPVLK0L2KLjBBI8YdN92Vxl4GsdF/S2UC+hOckFph7iq2lRzOiyDhkm0GQJZC4B0Ggh
+         aS4g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=ogWraQRR;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <javier.chamorro.w@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l11sor1744552wmq.22.2021.11.05.08.08.27
+        for <alessiobunsetti@gmail.com>
+        (Google Transport Security);
+        Fri, 05 Nov 2021 08:08:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=ogWraQRR;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=0gGLDPLdNVN7bY8Lna8ewEJxBZE9g84JW4cI87Enxqw=;
+        b=ogWraQRRBmCOZkaNTbO18BCiaRG06p6T7+V1Eorr7fmduF3abshfwRab2KhYX3mdXf
+         4nQJGi/405+NRlt5GRw13OfGYXH9dE1tp+9LFZwU/X6qosYDVws7oAYkT5qNFr2kfZfD
+         BFEuWAj/fQtpMmv4/lDVOGHfYpsvMuadZKQInzQ/JCbUoDvmFinvWpccQ0l27mDaQL68
+         keyBKf881KsiYdKUQRkH7UZrsaJfKh1POdAp/ZEbuuLjrw1PcHqpv/XcHGkattcZ1LTo
+         gCIw4aQVTnbT01PVxh/7b7npF9sxfdSfDKkRJUNxbx0ZJMUeGYhQ2xjvroQ6Jfn1nSMg
+         yi9Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=0gGLDPLdNVN7bY8Lna8ewEJxBZE9g84JW4cI87Enxqw=;
+        b=BuVFdLopqKy4Iko1unrMt1I9JUCRUM18R1S976iWmdjqC2JVtViGhLgUYGixpZhuAP
+         MSDlI8kNJsdQ5b5gXvriQdqhRUAOS0BtvRGPwe5aVLMK33Oz9CzkJ6YLUcIca3GOO5TC
+         yY1OZU59ZcLH4CQnGUj+u4f/HGH8L3QhIkM9Aawffe6zeYizUOzjgytwT2LvtkAAIaCt
+         huIyCWuarQkr5PVUoHPiBv12dBrCKuvRE2447KBgDP192VAeOfAa2zrwKh1hQVP4oExC
+         Qrf0T9Lye1JvuwedcMlXOglE5/VGwkdMHnnlQwbz4iGmvS2yqFUntYrf76TF8fyp+vHX
+         SOVw==
+X-Gm-Message-State: AOAM532TeCxRhAY07L116ksLenFYjDYRdQLZ7w5tJs0TnkUI/p5nWfi7
+	oIkWjIWsSd8L9roclw5Yw+a4bc9l9owiuwaicLjI4CVa
+X-Google-Smtp-Source: ABdhPJwjRBKMLquNW7rEH8Z/6RaV73/QjnYCmabIqCqz8SLmtRmlGEl1JgZv4sUHImlBLOag4ya1QlYaMd5KCQizNgU=
+X-Received: by 2002:a05:6402:520b:: with SMTP id s11mr40691328edd.213.1636124907353;
+ Fri, 05 Nov 2021 08:08:27 -0700 (PDT)
+MIME-Version: 1.0
+References: <sXcYZWuhyWUHVU88F0VJYqO8ML1zRWXl5PaDBnHjJv8@sellyourtesla.de> <765303832.1874087.1636112358613@communicator.strato.de>
+In-Reply-To: <765303832.1874087.1636112358613@communicator.strato.de>
+From: Javier Chamorro <javier.chamorro.w@gmail.com>
+Date: Fri, 5 Nov 2021 16:08:16 +0100
+Message-ID: <CAN0XE-TNUS50zuDVRRtn4xpZQbV7UcZKfDtnbkMEQsq99cTq-g@mail.gmail.com>
+Subject: Fwd: 105
+To: alessiobunsetti@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000e939ef05d00c0350"
+
+--000000000000e939ef05d00c0350
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+De: Sales Team sellyourtesla.de <ankauf@sellyourtesla.de>
+Date: vie, 5 nov 2021 a las 12:39
+Subject: Fwd: 105
+To: javier.chamorro.w@gmail.com <javier.chamorro.w@gmail.com>
+
+
+
+---------- Urspr=C3=BCngliche Nachricht ----------
+Von: hhh ddd <hhhh@hhhh.de>
+An: ankauf@sellyourtesla.de
+Datum: 31.10.2021 14:23
+Betreff: 105
+
+
+*Welches Tesla Modell m=C3=B6chtest Du verkaufen?*
+Model 3
+*Ausweisbare MWST?*
+Ja
+*Datum der Erstzulassung*
+6363636366
+*Kilometerstand*
+Ausgew=C3=A4hlter Wert: 11252 (0 min / 12000 max)
+*Antriebsversion*
+Maximale Reichweite
+*Lackierungen*
+Red Multi-Coat
+*R=C3=A4der*
+Model 3 - 18" Aero Felgen
+*Innenansicht*
+Komplett schwarz
+*Autopilot*
+Volles Potential f=C3=BCr autonomes Fahren
+*Unfallfahrzeug:*
+Ja
+*Brutto-Listenpreis*
+999999
+*Name*
+hhh ddd
+*Strasse und Hausnummer*
+ddd
+*PLZ und Ort*
+ddd
+*Telefonische Erreichbarkeit*
+010101100101
+*E-Mail*
+hhhh@hhhh.de
+*Datenschutzerkl=C3=A4rung*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschutzerkl=C3=A4=
+rung
+gelesen habe und akzeptiere.
+*Ankaufs AGB*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschutzerkl=C3=A4=
+rung
+gelesen habe und akzeptiere.
+Gesendet von sellyourtesla.de
+
+--000000000000e939ef05d00c0350
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>De: <strong class=
+=3D"gmail_sendername" dir=3D"auto">Sales Team <a href=3D"http://sellyourtes=
+la.de">sellyourtesla.de</a></strong> <span dir=3D"auto">&lt;<a href=3D"mail=
+to:ankauf@sellyourtesla.de">ankauf@sellyourtesla.de</a>&gt;</span><br>Date:=
+ vie, 5 nov 2021 a las 12:39<br>Subject: Fwd: 105<br>To: <a href=3D"mailto:=
+javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a> &lt;<a href=3D=
+"mailto:javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a>&gt;<br=
+></div><br><br><u></u>
+
+ =20
+  =20
+=20
+ <div>
+  <div>
+   <br>
+  </div>
+  <blockquote type=3D"cite">
+   <div>
+    ---------- Urspr=C3=BCngliche Nachricht ----------
+   </div>
+   <div>
+    Von: hhh ddd &lt;<a href=3D"mailto:hhhh@hhhh.de" target=3D"_blank">hhhh=
+@hhhh.de</a>&gt;
+   </div>
+   <div>
+    An: <a href=3D"mailto:ankauf@sellyourtesla.de" target=3D"_blank">ankauf=
+@sellyourtesla.de</a>
+   </div>
+   <div>
+    Datum: 31.10.2021 14:23
+   </div>
+   <div>
+    Betreff: 105
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <center>
+    <table style=3D"border-collapse:collapse;height:100%;margin:0;padding:0=
+;width:100%;background-color:#e9eaec" id=3D"m_3422718859370402845bodyTable"=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"c=
+enter">
+     <tbody>
+      <tr>
+       <td style=3D"height:100%;margin:0;padding:50px 50px;width:100%" id=
+=3D"m_3422718859370402845bodyCell" valign=3D"top" align=3D"center">
+        <table style=3D"border-collapse:collapse;border:0;max-width:600px!i=
+mportant" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+         <tbody>
+          <tr>
+           <td style=3D"background-color:#ffffff;border-top:0;border:1px so=
+lid #c1c1c1;padding-top:0;padding-bottom:0px" id=3D"m_3422718859370402845te=
+mplateBody" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"padding:30px" valign=3D"top">
+                    <table style=3D"display:block;min-width:100%;border-col=
+lapse:collapse;width:100%" width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Welches Tesla Modell m=C3=B6chtest Du verkaufen?</stron=
+g></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model 3</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ausweisbare MWST?</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ja</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datum der Erstzulassung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">6363636366</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Kilometerstand</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ausgew=C3=A4hlter Wert: 11252 (0 min / 12000 max)</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Antriebsversion</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Maximale Reichweite</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Lackierungen</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Red Multi-Coat</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>R=C3=A4der</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model 3 - 18&quot; Aero Felgen</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Innenansicht</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Komplett schwarz</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Autopilot</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Volles Potential f=C3=BCr autonomes Fahren</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Unfallfahrzeug:</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ja</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Brutto-Listenpreis</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">999999</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Name</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">hhh ddd</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Strasse und Hausnummer</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">ddd</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>PLZ und Ort</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">ddd</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Telefonische Erreichbarkeit</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">010101100101</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>E-Mail</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px"><a href=3D"mailto:hhhh@hhhh.de" target=3D"_blank">hhhh@hhhh.de<=
+/a></td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datenschutzerkl=C3=A4rung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschu=
+tzerkl=C3=A4rung gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ankaufs AGB</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschu=
+tzerkl=C3=A4rung gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+          <tr>
+           <td style=3D"background-color:#e9eaec;border-top:0;border-bottom=
+:0;padding-top:12px;padding-bottom:12px" id=3D"m_3422718859370402845templat=
+eFooter" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"word-break:break-word;color:#aaa;font-famil=
+y:Helvetica;font-size:12px;line-height:150%;text-align:center;padding:9px 1=
+8px 9px 18px" valign=3D"top">Gesendet von <a style=3D"color:#bbbbbb" href=
+=3D"http://sellyourtesla.de" target=3D"_blank">sellyourtesla.de</a></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+         </tbody>
+        </table></td>
+      </tr>
+     </tbody>
+    </table>
+   </center>
+  </blockquote>=20
+ </div>
+</div></div>
+
+--000000000000e939ef05d00c0350--
+
+From 1715601331099160814@xxx Fri Nov 05 15:08:46 +0000 2021
+X-GM-THRID: 1715601331099160814
+X-Gmail-Labels: =?UTF-8?Q?Recibidos,Importante,Abierto,?=
+ =?UTF-8?Q?Categor=C3=ADa:_personal,Destacados?=
+Delivered-To: alessiobunsetti@gmail.com
+Received: by 2002:a17:906:6d42:0:0:0:0 with SMTP id a2csp2558707ejt;
+        Fri, 5 Nov 2021 08:08:46 -0700 (PDT)
+X-Received: by 2002:a17:906:c9d0:: with SMTP id hk16mr71521292ejb.109.1636124926652;
+        Fri, 05 Nov 2021 08:08:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1636124926; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KyB6FmQi8BWrgIWwcEWMd6iPSWiv2Tbvu41CiS6dbmhWzv2Dt+1GELW4bhntbOj9E3
+         IEBOnzOXCc1W8EltNoQFOO9hKVFjwUWFVulP4RgUmpPnHxtjdIUwMFYsYxrDg14FizsJ
+         qEsxz+VpU23hIRAgUgkXtsmItuOf0owBNUfNosRrkZzF4Y9qUB5yCMhy95ghfTGrbrD1
+         TjyvWh1Ku2m98VUCpT5BArXj3C2fZIP9oScTBVMEezw8hxlrFE6iCajf/VPx5uZkT+9c
+         rnkvUDjgtHb3mT6aKpp+rE9BKigKLXVtqFRunyC9XaS/IFT7pedYLy0Bu29RNlmDJwXv
+         ghGw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=ZK7go2vOsJJdEuW7pOiH9CFkmz19N9LbdNqudIyGKmI=;
+        b=G7DvEGSpbCfXvFMYWs/r23aMqoi90kHm4z9lBlxwwUjOavPuty3EHBPowO+H/khkGB
+         UyGoS16HHutTDLj9I7m+fSoofmiZKcmg79ZS3DRaWl5rmB4kbQ3cs3z4KReD9wfl8dC/
+         vJ4HCjG/O7MF0VMrl/m+l/vBDajeI95gCEMbpeI2WbXE1Ij0aNcTtbNQl8EFbueWmkyr
+         81FgCC4BOQK98njAy2D/DiVdMWFdvesbjJz+av1rCtcQ4GjCODCpYe0cqdnnyq0YJNA+
+         4iDqJiSC7lzjgFaveKAEWtsiClQbW4lawzZyhNT6sd65S1Qu9UGiT3cxNGNthBBMLdKJ
+         m+BA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=gZP2RBGe;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <javier.chamorro.w@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h9sor2128696edb.19.2021.11.05.08.08.46
+        for <alessiobunsetti@gmail.com>
+        (Google Transport Security);
+        Fri, 05 Nov 2021 08:08:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=gZP2RBGe;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=ZK7go2vOsJJdEuW7pOiH9CFkmz19N9LbdNqudIyGKmI=;
+        b=gZP2RBGelHnoP9R5XRF3gM10Fe/XNyObzMzpOej6gCwRfjecLwe2o9M7o/bns0bvLq
+         te9EDsWTH3P0HFa0l7/HMblMm3fFvuUKiuJJkd0hwGAD5tl0mlvjbBMt20LrPQhjMdl2
+         0NkQgcvIZ9mOsSi0SwELxNOkdWOGq+8HmviNy1JojDnng/gk9VxISWtVjMehB8VMuIA9
+         ZhxmbWwTWxtG+SGmJyQvuX8hvcS4ojWPt/jYKLvDSwyyIYQMV1xTOkLDu6VQxZ2QS4EA
+         VCyqaylkV7MKXSkykrYvLtgnzCqHVyA5EfsK591GrOPMC/mfSRc06dXfoJZ0tdyNYOrx
+         WMuw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=ZK7go2vOsJJdEuW7pOiH9CFkmz19N9LbdNqudIyGKmI=;
+        b=ofwb6skLYpYBM1OuARj4Rsss3dYLlEnpFzYyocsF20gc0pU+BjNZ8jlwdIekYuFQlT
+         wR79ehAgrlTmbbY+20slb2Gwwe7ucdl16mUoD2FH8OHVJZF9OFW3nbQ+lANjxwpkpU7+
+         iuizJNv6dCqQ9nX3SIFQ2DiYvkGpbwAq85jiPvokTeRjYA9ZoVJUQYTNypn2ey2YMYRA
+         GOmE0RyjOw8ovpZy9IIxGldrzshozcVA1ZsyagfXkrMUoZAc23DHKaFZHtsBGeGD9DdR
+         CF+MX0d914+veQJXSoYwwzIxOT2oXy3dpytWxVirNfA3UMFKUii4M8wS2Z1VfRM6ZREr
+         MJfA==
+X-Gm-Message-State: AOAM531RPj2qwPUV8VuwIwYDeAyF1Kkr/Bcgoa3n5ciKOEIrheB+JQV+
+	/LCmhyWt/PdtvunmTKz04GG9wHgkn5cmyM2FRsn7pmVC
+X-Google-Smtp-Source: ABdhPJyEedSCrGjakCSJv/9klFeveJolQlWYRCHusTJucad4UCK6wNzrdkxObqpj0NiewyefmhXd/l8Dq4woxIoqtHo=
+X-Received: by 2002:a05:6402:1e8e:: with SMTP id f14mr44876018edf.250.1636124926048;
+ Fri, 05 Nov 2021 08:08:46 -0700 (PDT)
+MIME-Version: 1.0
+References: <FZ9Tpr8pRy4EGVojMddoLBwWge1k1BrZFMLcMEFn8@sellyourtesla.de> <2035404969.1873887.1636112317972@communicator.strato.de>
+In-Reply-To: <2035404969.1873887.1636112317972@communicator.strato.de>
+From: Javier Chamorro <javier.chamorro.w@gmail.com>
+Date: Fri, 5 Nov 2021 16:08:35 +0100
+Message-ID: <CAN0XE-Tm9aX6h5noW73nJNG38wxKN03Rqi-WhQmjCN-6pnZvUQ@mail.gmail.com>
+Subject: Fwd: 105
+To: alessiobunsetti@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000067be305d00c0507"
+
+--000000000000067be305d00c0507
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+De: Sales Team sellyourtesla.de <ankauf@sellyourtesla.de>
+Date: vie, 5 nov 2021 a las 12:38
+Subject: Fwd: 105
+To: javier.chamorro.w@gmail.com <javier.chamorro.w@gmail.com>
+
+
+
+---------- Urspr=C3=BCngliche Nachricht ----------
+Von: G=C3=BCnter Meisinger <g.meisinger@mlogica.de>
+An: ankauf@sellyourtesla.de
+Datum: 04.11.2021 21:39
+Betreff: 105
+
+
+*Welches Tesla Modell m=C3=B6chtest Du verkaufen?*
+Model 3
+*Ausweisbare MWST?*
+Ja
+*Datum der Erstzulassung*
+16.5.2021
+*Kilometerstand*
+Ausgew=C3=A4hlter Wert: 9429 (0 min / 12000 max)
+*Antriebsversion*
+Maximale Reichweite
+*Lackierungen*
+Pearl White Multi-Coat
+*R=C3=A4der*
+Model 3 - 18" Aero Felgen
+*Innenansicht*
+Komplett schwarz
+*Autopilot*
+Basis
+*Unfallfahrzeug:*
+Nein
+*Brutto-Listenpreis*
+55000
+*Name*
+G=C3=BCnter Meisinger
+*Strasse und Hausnummer*
+94116 Hutthurm
+*PLZ und Ort*
+Hutthurm
+*Telefonische Erreichbarkeit*
+015115617854
+*E-Mail*
+g.meisinger@mlogica.de
+*Datenschutzerkl=C3=A4rung*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschutzerkl=C3=A4=
+rung
+gelesen habe und akzeptiere.
+*Ankauf AGB*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Ankauf AGB gelesen ha=
+be
+und akzeptiere.
+Gesendet von sellyourtesla.de
+
+--000000000000067be305d00c0507
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>De: <strong class=
+=3D"gmail_sendername" dir=3D"auto">Sales Team <a href=3D"http://sellyourtes=
+la.de">sellyourtesla.de</a></strong> <span dir=3D"auto">&lt;<a href=3D"mail=
+to:ankauf@sellyourtesla.de">ankauf@sellyourtesla.de</a>&gt;</span><br>Date:=
+ vie, 5 nov 2021 a las 12:38<br>Subject: Fwd: 105<br>To: <a href=3D"mailto:=
+javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a> &lt;<a href=3D=
+"mailto:javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a>&gt;<br=
+></div><br><br><u></u>
+
+ =20
+  =20
+=20
+ <div>
+  <div>
+   <br>
+  </div>
+  <blockquote type=3D"cite">
+   <div>
+    ---------- Urspr=C3=BCngliche Nachricht ----------
+   </div>
+   <div>
+    Von: G=C3=BCnter Meisinger &lt;<a href=3D"mailto:g.meisinger@mlogica.de=
+" target=3D"_blank">g.meisinger@mlogica.de</a>&gt;
+   </div>
+   <div>
+    An: <a href=3D"mailto:ankauf@sellyourtesla.de" target=3D"_blank">ankauf=
+@sellyourtesla.de</a>
+   </div>
+   <div>
+    Datum: 04.11.2021 21:39
+   </div>
+   <div>
+    Betreff: 105
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <center>
+    <table style=3D"border-collapse:collapse;height:100%;margin:0;padding:0=
+;width:100%;background-color:#e9eaec" id=3D"m_2663908565798662660bodyTable"=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"c=
+enter">
+     <tbody>
+      <tr>
+       <td style=3D"height:100%;margin:0;padding:50px 50px;width:100%" id=
+=3D"m_2663908565798662660bodyCell" valign=3D"top" align=3D"center">
+        <table style=3D"border-collapse:collapse;border:0;max-width:600px!i=
+mportant" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+         <tbody>
+          <tr>
+           <td style=3D"background-color:#ffffff;border-top:0;border:1px so=
+lid #c1c1c1;padding-top:0;padding-bottom:0px" id=3D"m_2663908565798662660te=
+mplateBody" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"padding:30px" valign=3D"top">
+                    <table style=3D"display:block;min-width:100%;border-col=
+lapse:collapse;width:100%" width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Welches Tesla Modell m=C3=B6chtest Du verkaufen?</stron=
+g></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model 3</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ausweisbare MWST?</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ja</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datum der Erstzulassung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">16.5.2021</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Kilometerstand</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ausgew=C3=A4hlter Wert: 9429 (0 min / 12000 max)</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Antriebsversion</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Maximale Reichweite</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Lackierungen</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Pearl White Multi-Coat</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>R=C3=A4der</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model 3 - 18&quot; Aero Felgen</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Innenansicht</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Komplett schwarz</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Autopilot</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Basis</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Unfallfahrzeug:</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Nein</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Brutto-Listenpreis</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">55000</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Name</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">G=C3=BCnter Meisinger</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Strasse und Hausnummer</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">94116 Hutthurm</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>PLZ und Ort</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hutthurm</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Telefonische Erreichbarkeit</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">015115617854</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>E-Mail</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px"><a href=3D"mailto:g.meisinger@mlogica.de" target=3D"_blank">g.m=
+eisinger@mlogica.de</a></td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datenschutzerkl=C3=A4rung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschu=
+tzerkl=C3=A4rung gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ankauf AGB</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Ankauf AG=
+B gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+          <tr>
+           <td style=3D"background-color:#e9eaec;border-top:0;border-bottom=
+:0;padding-top:12px;padding-bottom:12px" id=3D"m_2663908565798662660templat=
+eFooter" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"word-break:break-word;color:#aaa;font-famil=
+y:Helvetica;font-size:12px;line-height:150%;text-align:center;padding:9px 1=
+8px 9px 18px" valign=3D"top">Gesendet von <a style=3D"color:#bbbbbb" href=
+=3D"https://sellyourtesla.de" target=3D"_blank">sellyourtesla.de</a></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+         </tbody>
+        </table></td>
+      </tr>
+     </tbody>
+    </table>
+   </center>
+  </blockquote>=20
+ </div>
+</div></div>
+
+--000000000000067be305d00c0507--
+
+From 1715601321836006416@xxx Fri Nov 05 15:08:37 +0000 2021
+X-GM-THRID: 1715601321836006416
+X-Gmail-Labels: =?UTF-8?Q?Recibidos,Importante,Abierto,?=
+ =?UTF-8?Q?Categor=C3=ADa:_personal,Destacados?=
+Delivered-To: alessiobunsetti@gmail.com
+Received: by 2002:a17:906:6d42:0:0:0:0 with SMTP id a2csp2558608ejt;
+        Fri, 5 Nov 2021 08:08:38 -0700 (PDT)
+X-Received: by 2002:a50:d4cd:: with SMTP id e13mr78475425edj.29.1636124917908;
+        Fri, 05 Nov 2021 08:08:37 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1636124917; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XQixLeWfzNgT9eZ0fDhlUx/L8L0+VUSEn6Mtqx2xhSPkuPTTCnUb0r+8bV7a9Mza9v
+         wDVI2WCzjJ0f6tNRDllGp1WqVwxU61YiyMjXkoYQVixLfgUjftWeKFvojsqoeRkhzWmz
+         wkQ6Oxl06ijT6g2RSzTu0CFVdLQmJfvM/azhE7jptOCShjqMQ1TsXgN+Ym+iW3pkU7X6
+         mxKF2m48NW4Rkemryow0Ttf/wnO4fH9v2fqMWsizVdwzgOXGck8/jl4kPGFkdy8swPeQ
+         dqZwa/1I95XN+fa5aRpUQlcpeCd81y+Kq8bJ0f/xYwT3LFd5Ko5VwlZDO8E2Iz3V+3mw
+         f0pQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=JQvA09Gnj5UTU8vAVUHFp8j5lyFdoTktF41/WT4HNeQ=;
+        b=zTj1sK8EFS6cENUUqG+zMUOmpuQu3V/KN7IUkv+4KC9SHrxK3iRf+9s/4BZcH6+zBc
+         j21tzhezL8CDLL2uJbtSKrT+2hQ/p4t15EVjtPY3Rm5nrdrGw0QfY/jK8einqrEm3U1B
+         Y57AL5QpzMhx2fuIxL9cOUsYE9jxz3T07nfn7fmoLIz+tsKxP5qMOA+iJF0AEGOrcuHT
+         dKyhwdCIDA9n3PSLhaA6tCXQkHKQpzszbFKlOM4LFMmoEYA/402pGKBzzqso0UrZ0uIM
+         drkvVkrnv83fSm49aeOGc56KIGUL9I7UXu5Q66ksiyX0WynqvOaUNQEhZ4J+4OFw182Z
+         YelA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=kswvxXBl;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <javier.chamorro.w@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id di4sor5752112ejc.4.2021.11.05.08.08.37
+        for <alessiobunsetti@gmail.com>
+        (Google Transport Security);
+        Fri, 05 Nov 2021 08:08:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=kswvxXBl;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=JQvA09Gnj5UTU8vAVUHFp8j5lyFdoTktF41/WT4HNeQ=;
+        b=kswvxXBl3FYO8LTYtX9JpmEJI/hw88MhVwGElA7i7G6hoTYiQlrWXsySyvMVJcpCbI
+         uWSkT9K2DsIZnTjnGCyUm1n+0kmO6ajl8G2JNsJEXGNfiqXHV2ZMZTYo8Een6Rplz8ro
+         gZFxvjgL3SSfUQ1zbr5betIt9K3nwOQouh2s91QHwifNZaadAtUAuAUJU0jUZXJB3fsz
+         VYAEYNIITw2xVtXR+iyO7yykFKV7pXY9Bn7zGTns7ZW0AvakKC6KI1DJMK78HccoH51N
+         yYAjYNo5FfNkV33p3rADkngXHEvYXBsKGJl2TgR3G0F97MxK/D6nE9k+zHSHJMj1YsoF
+         hf0g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=JQvA09Gnj5UTU8vAVUHFp8j5lyFdoTktF41/WT4HNeQ=;
+        b=f2iWl2jh/gqU0k3wdLJbWRdqXFNV1mPNR/SkWMkYoa0GW9IFj54XhTaI0AAhm9jJHC
+         bADlRVTYX+vDyA+DZyP0RL5fgfuGjCxoS7uV6TDY/wTXvxcdxUBSmaldaeld5zFIBL/W
+         MyMWj+Hi5dFpmJdo9PWLcOnMvyfeprPthvmcNlGCmrGCTD+s3hfdITDLMlO/bXkK+o3x
+         RF1CClynJtRWPDfdq3GbQ5oc8wSv+wBdT0O0BQtQpa1IClq9hVluMcDQwT66+PsiGaOA
+         7vZIBNml0RN5aPyxPG5oLWCkCYoG7bAyGu5XwJ7+MWyqO9ndQDq7rlgnv8xSoMKwRSJH
+         ajkg==
+X-Gm-Message-State: AOAM531kRUfLParDFN3eYl0K78yWLJBi4SAX7TK5nyOFTTdQ6aWalmui
+	HP0vNQYwZIoQiXvV+86+EVE9M+f3qgRzOYYs0RWhIeXG
+X-Google-Smtp-Source: ABdhPJxEwryjrARYXFGUWZlZ3p8xeZEIlEcOHIFTsKQjwBif0xhXt7LefBux/Bm+GBatk9QmYjN4SWpu3jDZ91fOMZk=
+X-Received: by 2002:a17:907:75c1:: with SMTP id jl1mr71702703ejc.288.1636124917384;
+ Fri, 05 Nov 2021 08:08:37 -0700 (PDT)
+MIME-Version: 1.0
+References: <eYMbOZdoJ3l34AVNVAGzSNshzSZmnbf8zwawguOuM@sellyourtesla.de> <2026600007.1874041.1636112351946@communicator.strato.de>
+In-Reply-To: <2026600007.1874041.1636112351946@communicator.strato.de>
+From: Javier Chamorro <javier.chamorro.w@gmail.com>
+Date: Fri, 5 Nov 2021 16:08:26 +0100
+Message-ID: <CAN0XE-Q5sd8EOUE0CkvsXYtN7iBEvUTNTt2ZQKL4LPGg9RRcvg@mail.gmail.com>
+Subject: Fwd: 105
+To: alessiobunsetti@gmail.com
+Content-Type: multipart/alternative; boundary="00000000000082477705d00c04e6"
+
+--00000000000082477705d00c04e6
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+De: Sales Team sellyourtesla.de <ankauf@sellyourtesla.de>
+Date: vie, 5 nov 2021 a las 12:39
+Subject: Fwd: 105
+To: javier.chamorro.w@gmail.com <javier.chamorro.w@gmail.com>
+
+
+
+---------- Urspr=C3=BCngliche Nachricht ----------
+Von: Test Test <test@test.de>
+An: ankauf@sellyourtesla.de
+Datum: 02.11.2021 18:14
+Betreff: 105
+
+
+*Welches Tesla Modell m=C3=B6chtest Du verkaufen?*
+Model 3
+*Ausweisbare MWST?*
+Ja
+*Datum der Erstzulassung*
+21.04.2020
+*Kilometerstand*
+Ausgew=C3=A4hlter Wert: 2847 (0 min / 12000 max)
+*Antriebsversion*
+Standard Plus
+*Lackierungen*
+Pearl White Multi-Coat
+*R=C3=A4der*
+Model 3 - 18" Aero Felgen
+*Innenansicht*
+Komplett schwarz
+*Autopilot*
+Basis
+*Unfallfahrzeug:*
+Ja
+*Besch=C3=A4digungen*
+Test Test
+*Zubeh=C3=B6r*
+Anh=C3=A4ngerkupplung
+*Brutto-Listenpreis*
+Test
+*Name*
+Test Test
+*Strasse und Hausnummer*
+Test
+*PLZ und Ort*
+Test
+*Telefonische Erreichbarkeit*
+28971309827
+*E-Mail*
+test@test.de
+*Datenschutzerkl=C3=A4rung*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschutzerkl=C3=A4=
+rung
+gelesen habe und akzeptiere.
+*Ankauf AGB*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Ankauf AGB gelesen ha=
+be
+und akzeptiere.
+Gesendet von sellyourtesla.de
+
+--00000000000082477705d00c04e6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>De: <strong class=
+=3D"gmail_sendername" dir=3D"auto">Sales Team <a href=3D"http://sellyourtes=
+la.de">sellyourtesla.de</a></strong> <span dir=3D"auto">&lt;<a href=3D"mail=
+to:ankauf@sellyourtesla.de">ankauf@sellyourtesla.de</a>&gt;</span><br>Date:=
+ vie, 5 nov 2021 a las 12:39<br>Subject: Fwd: 105<br>To: <a href=3D"mailto:=
+javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a> &lt;<a href=3D=
+"mailto:javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a>&gt;<br=
+></div><br><br><u></u>
+
+ =20
+  =20
+=20
+ <div>
+  <div>
+   <br>
+  </div>
+  <blockquote type=3D"cite">
+   <div>
+    ---------- Urspr=C3=BCngliche Nachricht ----------
+   </div>
+   <div>
+    Von: Test Test &lt;<a href=3D"mailto:test@test.de" target=3D"_blank">te=
+st@test.de</a>&gt;
+   </div>
+   <div>
+    An: <a href=3D"mailto:ankauf@sellyourtesla.de" target=3D"_blank">ankauf=
+@sellyourtesla.de</a>
+   </div>
+   <div>
+    Datum: 02.11.2021 18:14
+   </div>
+   <div>
+    Betreff: 105
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <center>
+    <table style=3D"border-collapse:collapse;height:100%;margin:0;padding:0=
+;width:100%;background-color:#e9eaec" id=3D"m_2957760414275833169bodyTable"=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"c=
+enter">
+     <tbody>
+      <tr>
+       <td style=3D"height:100%;margin:0;padding:50px 50px;width:100%" id=
+=3D"m_2957760414275833169bodyCell" valign=3D"top" align=3D"center">
+        <table style=3D"border-collapse:collapse;border:0;max-width:600px!i=
+mportant" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+         <tbody>
+          <tr>
+           <td style=3D"background-color:#ffffff;border-top:0;border:1px so=
+lid #c1c1c1;padding-top:0;padding-bottom:0px" id=3D"m_2957760414275833169te=
+mplateBody" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"padding:30px" valign=3D"top">
+                    <table style=3D"display:block;min-width:100%;border-col=
+lapse:collapse;width:100%" width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Welches Tesla Modell m=C3=B6chtest Du verkaufen?</stron=
+g></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model 3</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ausweisbare MWST?</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ja</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datum der Erstzulassung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">21.04.2020</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Kilometerstand</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ausgew=C3=A4hlter Wert: 2847 (0 min / 12000 max)</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Antriebsversion</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Standard Plus</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Lackierungen</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Pearl White Multi-Coat</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>R=C3=A4der</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model 3 - 18&quot; Aero Felgen</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Innenansicht</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Komplett schwarz</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Autopilot</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Basis</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Unfallfahrzeug:</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ja</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Besch=C3=A4digungen</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Test Test</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Zubeh=C3=B6r</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Anh=C3=A4ngerkupplung</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Brutto-Listenpreis</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Test</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Name</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Test Test</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Strasse und Hausnummer</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Test</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>PLZ und Ort</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Test</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Telefonische Erreichbarkeit</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">28971309827</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>E-Mail</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px"><a href=3D"mailto:test@test.de" target=3D"_blank">test@test.de<=
+/a></td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datenschutzerkl=C3=A4rung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschu=
+tzerkl=C3=A4rung gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ankauf AGB</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Ankauf AG=
+B gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+          <tr>
+           <td style=3D"background-color:#e9eaec;border-top:0;border-bottom=
+:0;padding-top:12px;padding-bottom:12px" id=3D"m_2957760414275833169templat=
+eFooter" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"word-break:break-word;color:#aaa;font-famil=
+y:Helvetica;font-size:12px;line-height:150%;text-align:center;padding:9px 1=
+8px 9px 18px" valign=3D"top">Gesendet von <a style=3D"color:#bbbbbb" href=
+=3D"http://sellyourtesla.de" target=3D"_blank">sellyourtesla.de</a></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+         </tbody>
+        </table></td>
+      </tr>
+     </tbody>
+    </table>
+   </center>
+  </blockquote>=20
+ </div>
+</div></div>
+
+--00000000000082477705d00c04e6--
+
+From 1715588558506083446@xxx Fri Nov 05 11:45:45 +0000 2021
+X-GM-THRID: 1715588558506083446
+X-Gmail-Labels: =?UTF-8?Q?Recibidos,Importante,Abierto,?=
+ =?UTF-8?Q?Categor=C3=ADa:_personal,Destacados?=
+Delivered-To: alessiobunsetti@gmail.com
+Received: by 2002:a17:906:6d42:0:0:0:0 with SMTP id a2csp2391056ejt;
+        Fri, 5 Nov 2021 04:45:45 -0700 (PDT)
+X-Received: by 2002:a17:906:52d8:: with SMTP id w24mr5258539ejn.296.1636112745629;
+        Fri, 05 Nov 2021 04:45:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1636112745; cv=none;
+        d=google.com; s=arc-20160816;
+        b=kvV6ebBxaSVDbiH/WMuunkhcJUUCzf4fQDmiUqk7hnIidSMPcEGKzOHshMMVvtdmIG
+         NHyUoiTGyN2pNr7Frk+7sFJfw9wNLquGD90Qpt6Z5Y6XaOZf7GS0d8tKTUyoek/5XL56
+         J+aFqWMp0491aIk+Vf9kUdRho5Mf1YJTrZfnLPNrm3gLzTXy5HB6WbELZrbZvJljARKu
+         EBUG199m9hXI9UFTGDdZu4rKZ3kZesJsvdW4bU0MDr+XuH8LzgsFPd4/Sp5erlLe2Qbh
+         VZih7RrDBzHuJYKYpZaEQSovqSXjmJNghoSw5FwztZmLtt5T5Oba+TIA2ZTSw8Ix4Drv
+         npQg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=N3VzuOuqnO6LbxKOCJDnFzH/0o6dbXXN7sj+Oq6mn20=;
+        b=e1IpfCDuTbJ4vb4vc3BtG0lBJ6OZDWv/Skziml6UT2jxY7clpbhWovqgDiXXRN6vUh
+         d+chjLi/i84vWEyHj0ioXLUmDQwnsBA7PLuO8ze4AJKQlUCdZDyVZ0nagl+jELzx8AMq
+         r4tC3larOyjtU/YatllV6U1Rb/4j/DhWM043PhEtbEu3YHuE2FJ5i9Jt0s8FJIJV+nQ+
+         VxKbPftEsK48Yge/wCJ+/f3ZSvBX8Img1Y+XsK5FWNEhgtTIUVGv/fW5kmnOCx0vlx8s
+         QfJakIOyEno47/w1+L8I5sBk7CkFVupzyo9Vy2gAW1vtONFrIFNWyXFycTFgQVtv6mKE
+         rhBg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=UhyYlfwR;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <javier.chamorro.w@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id sd31sor3064967ejc.12.2021.11.05.04.45.45
+        for <alessiobunsetti@gmail.com>
+        (Google Transport Security);
+        Fri, 05 Nov 2021 04:45:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=UhyYlfwR;
+       spf=pass (google.com: domain of javier.chamorro.w@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=javier.chamorro.w@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=N3VzuOuqnO6LbxKOCJDnFzH/0o6dbXXN7sj+Oq6mn20=;
+        b=UhyYlfwRQ3Ddx1kUf9fxl4TTJ8MtX7RXpVB3ZgiUP7qiLPEg1pWtcinkDkZpDSgLYL
+         msHPAO+Qy6NHA24dbghmzuVrc1qhQ1sJlrx7WLx3vI1zth46H7MO0iCw3JHkyfe8OXMH
+         QKzKpmIHZwRXpyuIMoSS1dFn/RzQsSPnDtn9/S5pY6wZ+IyGDC8pBnPZl0JnVoUbxp+L
+         3km4LsfvbPVshz7MyhfL22wxKcrSFp7FrcxHqVAXe6nsjd8G1fSly3ja112AXVOg3fRE
+         LJpwWochhvtuLmjwBvf1cMuGCuLnLauYKCX3NORly97JBizRAgbwEj0ZiR1V2PZ41Ct5
+         RC6g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=N3VzuOuqnO6LbxKOCJDnFzH/0o6dbXXN7sj+Oq6mn20=;
+        b=2jwnFUm688n0Dbz9nsZBMhPrhui5K4eZlG1cUQQrC7pLxctYJRHVDsGoPcYElChaXh
+         du6zh6sKPjzzqem7+FKZo9hqg2vDcJqNLxJoU3qWdnbGGvItClbbGSmq69JudTnFxes0
+         tIPhfD/DYq5TAS4nz6u4V3O4JiQN7lm+xWFDv3BN+1J2sfb+u+ZVV0Kz8Leqr3ftWtcZ
+         sb3fK9C8nTFLsC7VgA9lMqhfAEZdP0wOrHwh8WSTNvS/6MsgpDUXY73+R2JPGdbJI/wS
+         OTW6FKV4PMGNj4NGlo+tonKMYpaCx61WeDrrTbLKi962r0W8L7ZWYNzZJ6Yo+HZwDgWo
+         yevg==
+X-Gm-Message-State: AOAM530qAMnYzw3OpDaeUuOW9IVJOV/MG7evMCAjtH5w7/mKpYZOqAne
+	3nIUBn3QJ68FLyxUAlDMJXbaCibgZnVwDLaptRAChYDF
+X-Google-Smtp-Source: ABdhPJxRFOCr+C3AskCcVJXMEDRzfPAEHCy7fgZn7CbhOOt140iV6EsgbB4x85knq+sucAH2Ux4GyGIXMWWY4ZeLOgs=
+X-Received: by 2002:a17:907:1614:: with SMTP id hb20mr55292276ejc.299.1636112745209;
+ Fri, 05 Nov 2021 04:45:45 -0700 (PDT)
+MIME-Version: 1.0
+References: <vkhAVMJhOxJzGKZqGaXw5GpgPaPDwhbLF4iX0QjU@sellyourtesla.de> <1651304804.1874158.1636112366833@communicator.strato.de>
+In-Reply-To: <1651304804.1874158.1636112366833@communicator.strato.de>
+From: Javier Chamorro <javier.chamorro.w@gmail.com>
+Date: Fri, 5 Nov 2021 12:45:34 +0100
+Message-ID: <CAN0XE-RO9wPCg+2eqE_adAvv4K5n0S2HhgLxJhL4rgcHXd0QLw@mail.gmail.com>
+Subject: Fwd: 105
+To: alessiobunsetti@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000fda4c705d0092ec0"
+
+--000000000000fda4c705d0092ec0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+De: Sales Team sellyourtesla.de <ankauf@sellyourtesla.de>
+Date: vie, 5 nov 2021 a las 12:39
+Subject: Fwd: 105
+To: javier.chamorro.w@gmail.com <javier.chamorro.w@gmail.com>
+
+
+
+---------- Urspr=C3=BCngliche Nachricht ----------
+Von: Justin Breschul <justin@gmail.com>
+An: ankauf@sellyourtesla.de
+Datum: 29.10.2021 11:19
+Betreff: 105
+
+
+*Welches Tesla Modell m=C3=B6chtest Du verkaufen?*
+Model Y
+*Ausweisbare MWST?*
+Ja
+*Datum der Erstzulassung*
+09.10.2021
+*Kilometerstand*
+Ausgew=C3=A4hlter Wert: 1432 (0 min / 12000 max)
+*Antriebsversion*
+Performance
+*Lackierungen*
+Red Multi-Coat
+*R=C3=A4der*
+Model Y - 20" Induction Felgen
+*Innenansicht*
+Schwarz und wei=C3=9F
+*Autopilot*
+Enhanced
+*Name*
+Justin Breschul
+*Strasse und Hausnummer*
+Sonderschulstrasse 1
+*PLZ und Ort*
+42105 Wuppertal
+*Telefonische Erreichbarkeit*
+0189765432
+*E-Mail*
+justin@gmail.com
+*Datenschutzerkl=C3=A4rung*
+Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschutzerkl=C3=A4=
+rung
+gelesen habe und akzeptiere.
+Gesendet von sellyourtesla.de
+
+--000000000000fda4c705d0092ec0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>De: <strong class=
+=3D"gmail_sendername" dir=3D"auto">Sales Team <a href=3D"http://sellyourtes=
+la.de">sellyourtesla.de</a></strong> <span dir=3D"auto">&lt;<a href=3D"mail=
+to:ankauf@sellyourtesla.de">ankauf@sellyourtesla.de</a>&gt;</span><br>Date:=
+ vie, 5 nov 2021 a las 12:39<br>Subject: Fwd: 105<br>To: <a href=3D"mailto:=
+javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a> &lt;<a href=3D=
+"mailto:javier.chamorro.w@gmail.com">javier.chamorro.w@gmail.com</a>&gt;<br=
+></div><br><br><u></u>
+
+ =20
+  =20
+=20
+ <div>
+  <div>
+   <br>
+  </div>
+  <blockquote type=3D"cite">
+   <div>
+    ---------- Urspr=C3=BCngliche Nachricht ----------
+   </div>
+   <div>
+    Von: Justin Breschul &lt;<a href=3D"mailto:justin@gmail.com" target=3D"=
+_blank">justin@gmail.com</a>&gt;
+   </div>
+   <div>
+    An: <a href=3D"mailto:ankauf@sellyourtesla.de" target=3D"_blank">ankauf=
+@sellyourtesla.de</a>
+   </div>
+   <div>
+    Datum: 29.10.2021 11:19
+   </div>
+   <div>
+    Betreff: 105
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <center>
+    <table style=3D"border-collapse:collapse;height:100%;margin:0;padding:0=
+;width:100%;background-color:#e9eaec" id=3D"m_-4732247880035398206bodyTable=
+" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"=
+center">
+     <tbody>
+      <tr>
+       <td style=3D"height:100%;margin:0;padding:50px 50px;width:100%" id=
+=3D"m_-4732247880035398206bodyCell" valign=3D"top" align=3D"center">
+        <table style=3D"border-collapse:collapse;border:0;max-width:600px!i=
+mportant" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+         <tbody>
+          <tr>
+           <td style=3D"background-color:#ffffff;border-top:0;border:1px so=
+lid #c1c1c1;padding-top:0;padding-bottom:0px" id=3D"m_-4732247880035398206t=
+emplateBody" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"padding:30px" valign=3D"top">
+                    <table style=3D"display:block;min-width:100%;border-col=
+lapse:collapse;width:100%" width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Welches Tesla Modell m=C3=B6chtest Du verkaufen?</stron=
+g></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model Y</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Ausweisbare MWST?</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ja</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datum der Erstzulassung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">09.10.2021</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Kilometerstand</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Ausgew=C3=A4hlter Wert: 1432 (0 min / 12000 max)</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Antriebsversion</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Performance</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Lackierungen</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Red Multi-Coat</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>R=C3=A4der</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Model Y - 20&quot; Induction Felgen</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Innenansicht</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Schwarz und wei=C3=9F</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Autopilot</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Enhanced</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Name</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Justin Breschul</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Strasse und Hausnummer</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Sonderschulstrasse 1</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>PLZ und Ort</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">42105 Wuppertal</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Telefonische Erreichbarkeit</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">0189765432</td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>E-Mail</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px"><a href=3D"mailto:justin@gmail.com" target=3D"_blank">justin@gm=
+ail.com</a></td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <table style=3D"border-top:1px solid #dddddd;display:bl=
+ock;min-width:100%;border-collapse:collapse;width:100%" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left">
+                     <tbody>
+                      <tr>
+                       <td style=3D"color:#333333;padding-top:20px;padding-=
+bottom:3px"><strong>Datenschutzerkl=C3=A4rung</strong></td>
+                      </tr>
+                      <tr>
+                       <td style=3D"color:#555555;padding-top:3px;padding-b=
+ottom:20px">Hiermit best=C3=A4tige ich, dass ich die nachfolgende Datenschu=
+tzerkl=C3=A4rung gelesen habe und akzeptiere.</td>
+                      </tr>
+                     </tbody>
+                    </table></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+          <tr>
+           <td style=3D"background-color:#e9eaec;border-top:0;border-bottom=
+:0;padding-top:12px;padding-bottom:12px" id=3D"m_-4732247880035398206templa=
+teFooter" valign=3D"top">
+            <table style=3D"min-width:100%;border-collapse:collapse" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+             <tbody>
+              <tr>
+               <td valign=3D"top">
+                <table style=3D"min-width:100%;border-collapse:collapse" wi=
+dth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"left=
+">
+                 <tbody>
+                  <tr>
+                   <td style=3D"word-break:break-word;color:#aaa;font-famil=
+y:Helvetica;font-size:12px;line-height:150%;text-align:center;padding:9px 1=
+8px 9px 18px" valign=3D"top">Gesendet von <a style=3D"color:#bbbbbb" href=
+=3D"http://sellyourtesla.de" target=3D"_blank">sellyourtesla.de</a></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table></td>
+          </tr>
+         </tbody>
+        </table></td>
+      </tr>
+     </tbody>
+    </table>
+   </center>
+  </blockquote>=20
+ </div>
+</div></div>
+
+--000000000000fda4c705d0092ec0--
+
